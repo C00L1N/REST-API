@@ -9,7 +9,7 @@
 
 :root {
     /* PADDING */
-    --padding: 5px 208px 5px 9px;
+    --padding: 10px 10px 10px 9px;
 
     /* COLORS */
     --text-color: #050316;
@@ -51,7 +51,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -59,6 +59,7 @@ input {
     border-radius: 10px;
     padding: var(--padding);
     border: none;
+    width: 100%;
 }
 
 .inputs-container {
